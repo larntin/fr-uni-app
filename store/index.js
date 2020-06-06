@@ -3,12 +3,47 @@ import Vuex from 'vuex'
 import ajax from "@/lib/ajax.js"
 Vue.use(Vuex)
 
+// 
+const _tabbar = [
+  {
+    "title": "基础",
+    "iconPath": "/static/tabbar/basics.png",
+    "selectedIconPath": "/static/tabbar/basics_cur.png",
+    "page":"index"
+  },
+  {
+    "title": "产品",
+    "iconPath": "/static/tabbar/basics.png",
+    "selectedIconPath": "/static/tabbar/basics_cur.png",
+    "page":"goods"
+  },
+  {
+    "title": "发布",
+    "iconPath": "/static/tabbar/basics.png",
+    "selectedIconPath": "/static/tabbar/basics_cur.png",
+    "page":"contact",
+    "size": "big"
+  },
+  {
+    "title": "新闻",
+    "iconPath": "/static/tabbar/basics.png",
+    "selectedIconPath": "/static/tabbar/basics_cur.png",
+    "page":"news"
+  },
+  {
+    "title": "关于我们",
+    "iconPath": "/static/tabbar/about.png",
+    "selectedIconPath": "/static/tabbar/about_cur.png",
+    "page":"about"
+  }
+]
+
 const store = new Vuex.Store({
 	state: {
 		themeColor:'#888888',
 		bannerDotColor:"#888888",
 		bannerDotActiveColor:"#888888",
-		tabbar:[],
+		tabbar: _tabbar,
 		tabbarTextColor:'',
 		tabbarTextActiveColor:"",
 		textColor:"",
