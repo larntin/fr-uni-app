@@ -7,33 +7,33 @@ Vue.use(Vuex)
 const _tabbar = [
   {
     "title": "基础",
-    "iconPath": "/static/tabbar/basics.png",
-    "selectedIconPath": "/static/tabbar/basics_cur.png",
+    "iconPath": "/static/tabbar2/basics.png",
+    "selectedIconPath": "/static/tabbar2/basics_cur.png",
     "page":"index"
   },
   {
     "title": "产品",
-    "iconPath": "/static/tabbar/basics.png",
-    "selectedIconPath": "/static/tabbar/basics_cur.png",
+    "iconPath": "/static/tabbar2/basics.png",
+    "selectedIconPath": "/static/tabbar2/basics_cur.png",
     "page":"goods"
   },
   {
     "title": "发布",
-    "iconPath": "/static/tabbar/basics.png",
-    "selectedIconPath": "/static/tabbar/basics_cur.png",
+    "iconPath": "/static/tabbar2/basics.png",
+    "selectedIconPath": "/static/tabbar2/basics_cur.png",
     "page":"contact",
     "size": "big"
   },
   {
     "title": "新闻",
-    "iconPath": "/static/tabbar/basics.png",
-    "selectedIconPath": "/static/tabbar/basics_cur.png",
+    "iconPath": "/static/tabbar2/basics.png",
+    "selectedIconPath": "/static/tabbar2/basics_cur.png",
     "page":"news"
   },
   {
     "title": "关于我们",
-    "iconPath": "/static/tabbar/about.png",
-    "selectedIconPath": "/static/tabbar/about_cur.png",
+    "iconPath": "/static/tabbar2/about.png",
+    "selectedIconPath": "/static/tabbar2/about_cur.png",
     "page":"about"
   }
 ]

@@ -38,33 +38,33 @@
     mapState
   } from "vuex";
   let tabList = [{
-      "iconPath": "http://cdn.gek6.cn/fr-uni-app-icon/a2.png",
-      "selectedIconPath": "http://cdn.gek6.cn/fr-uni-app-icon/a1.png",
+      "iconPath": "/static/tabbar/a2.png",
+      "selectedIconPath": "/static/tabbar/a1.png",
       "title": "首页",
       "page": "index"
     },
     {
-      "iconPath": "http://cdn.gek6.cn/fr-uni-app-icon/b2.png",
-      "selectedIconPath": "http://cdn.gek6.cn/fr-uni-app-icon/b1.png",
+      "iconPath": "/static/tabbar/b2.png",
+      "selectedIconPath": "/static/tabbar/b1.png",
       "title": "产品中心",
       "page": "goods"
     },
     {
-      "iconPath": "http://cdn.gek6.cn/fr-uni-app-icon/c2.png",
-      "selectedIconPath": "http://cdn.gek6.cn/fr-uni-app-icon/c1.png",
+      "iconPath": "/static/tabbar/c2.png",
+      "selectedIconPath": "/static/tabbar/c1.png",
       "title": "发布",
       "page": "contact",
       "size": "big"
     },
     {
-      "iconPath": "http://cdn.gek6.cn/fr-uni-app-icon/d2.png",
-      "selectedIconPath": "http://cdn.gek6.cn/fr-uni-app-icon/d1.png",
+      "iconPath": "/static/tabbar/d2.png",
+      "selectedIconPath": "/static/tabbar/d1.png",
       "title": "新闻中心",
       "page": "news"
     },
     {
-      "iconPath": "http://cdn.gek6.cn/fr-uni-app-icon/e2.png",
-      "selectedIconPath": "http://cdn.gek6.cn/fr-uni-app-icon/e1.png",
+      "iconPath": "/static/tabbar/e2.png",
+      "selectedIconPath": "/static/tabbar/e1.png",
       "title": "关于我们",
       "page": "about"
     }
